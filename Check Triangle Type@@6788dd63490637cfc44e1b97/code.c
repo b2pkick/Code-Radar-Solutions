@@ -12,6 +12,6 @@ int main(){
     }else if(b==c&&b!=a){
         printf("iscosceles");
     }else{
-        printf("scalene")
+        printf("scalene");
     }
 }

@@ -15,4 +15,13 @@ int main(){
         }
         printf("\n");
     }
+    for(i=0;i<a-1;i++){
+        for(k=0;k<i+1;k++){
+            printf(" ");
+        }
+        for(j=0;j<5-2*i;j++){
+            printf("*");
+        }
+        printf("\n");
+    }
 }

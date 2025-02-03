@@ -19,7 +19,7 @@ int main(){
         for(k=0;k<i;k++){
             printf(" ");
         }
-        for(j=0;j<5-2*i;j++){
+        for(j=0;j<5*(i-1)-2*i;j++){
             printf("*");
         }
         printf("\n");

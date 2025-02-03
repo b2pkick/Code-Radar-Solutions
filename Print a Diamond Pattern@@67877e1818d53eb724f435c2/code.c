@@ -22,6 +22,6 @@ int main(){
         for(j=0;j<5-2*i;j++){
             printf("*");
         }
-        printf("\n")
+        printf("\n");
     }
 }

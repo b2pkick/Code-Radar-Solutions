@@ -12,10 +12,10 @@ int main() {
             printf(" ");
         }
         for(j=1;j<i+1;j++){
-            printf("%d",tgamma(j+1));
+            printf("%f",tgamma(j+1));
         }
         for(u=1;i<i;i++){
-            printf("%d",tgamma(u+1));
+            printf("%f",tgamma(u+1));
         }
         printf("\n");
     }

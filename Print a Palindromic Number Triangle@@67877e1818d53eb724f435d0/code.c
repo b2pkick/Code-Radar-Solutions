@@ -14,7 +14,7 @@ int main() {
         for(j=1;j<i+1;j++){
             printf("%d",j);
         }
-        for(u=1;u<i;u++){
+        for(u=i;u>0;u--){
             printf("%d",u);
         }
         printf("\n");

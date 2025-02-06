@@ -10,7 +10,7 @@ int main(){
         k=65;
         for(j=0;j<i+1;j++){
             printf("%c",k);
-            k++
+            k++;
         }
         printf("\n");
     }

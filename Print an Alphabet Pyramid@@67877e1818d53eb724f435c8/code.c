@@ -12,6 +12,6 @@ int main(){
             printf("%c",k);
             k++
         }
-        printf("\n")
+        printf("\n");
     }
 }

@@ -15,8 +15,8 @@ int main() {
             printf("%d",tgamma(j+1));
         }
         for(u=1;i<i;i++){
-            printf("%d",tgamma(u+1))
+            printf("%d",tgamma(u+1));
         }
-        printf("\n")
+        printf("\n");
     }
 }

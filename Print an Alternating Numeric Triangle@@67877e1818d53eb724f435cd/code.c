@@ -8,9 +8,10 @@ int main() {
     int u;
     for(i = 0;i<a;i++){
         k = !k;
+        u = k;
         for(j=0;j<i+1;j++){
-            printf("%d ",k);
-            k = !k;
+            printf("%d ",u);
+            u = !u;
         }
         printf("\n");
     }

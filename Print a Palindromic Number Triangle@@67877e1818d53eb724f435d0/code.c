@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <math.h>
+
 int main() {
     int a;
     scanf("%d",&a);
@@ -12,10 +12,10 @@ int main() {
             printf(" ");
         }
         for(j=1;j<i+1;j++){
-            printf("%lf",tgamma(j));
+            printf("%d",j);
         }
         for(u=1;i<i;i++){
-            printf("%lf",tgamma(u));
+            printf("%d",u);
         }
         printf("\n");
     }

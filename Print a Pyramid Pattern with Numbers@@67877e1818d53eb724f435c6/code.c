@@ -9,6 +9,6 @@ int main(){
         for(j=1;j<i+2;j++){
             printf("%d",j);
         }
-        printf("\n")
+        printf("\n");
     }
 }

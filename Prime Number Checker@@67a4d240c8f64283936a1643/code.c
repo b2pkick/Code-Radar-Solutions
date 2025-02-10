@@ -1,4 +1,4 @@
-// #include <stdio.h>
+#include <stdio.h>
 
 int isPrime(n){
     int i,count;
@@ -7,5 +7,9 @@ int isPrime(n){
             count++;
         }
     }
-    return count;
+    if(count==2){
+        return 1;
+    }else{
+        return 0;
+    }
 }

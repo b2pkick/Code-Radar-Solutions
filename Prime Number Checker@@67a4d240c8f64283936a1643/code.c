@@ -7,4 +7,5 @@ void isPrime(n){
             count++;
         }
     }
+    return count;
 }

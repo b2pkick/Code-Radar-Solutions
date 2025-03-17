@@ -8,8 +8,6 @@ int main(){
     int g;
     scanf("%[^\n]", s);
     int n = strlen(s);
-    printf("%s",s);
-    printf("%d",n);
     for(int i=0;i<n;i++){
         count = 0;
         m = s[i];

@@ -4,10 +4,7 @@ int main(){
     char s[100];
     int count;
     int arr[100];
-    int ar1[100];
     int m;
-    int g;
-    int v=0;
     scanf("%[^\n]", s);
     int n = strlen(s);
     for(int i=0;i<n;i++){

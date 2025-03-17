@@ -6,7 +6,6 @@ int main(){
     int arr[100];
     int m;
     scanf("%s",&s);
-    int n = strlen(s);
     printf("%d",n);
     for(int i=0;i<n;i++){
         count = 0;
@@ -20,6 +19,9 @@ int main(){
     }
     int u=0;
     int q = sizeof(arr)/sizeof(arr[0]);
+    for(int i= 0;i<q;i++){
+        printf("%d",arr[i]);
+    }
     for(int i=0;i<q;i++){
         if(arr[i]>u){
             u = arr[i];

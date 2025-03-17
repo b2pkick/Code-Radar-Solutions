@@ -5,7 +5,13 @@ int main(){
     int count;
     int arr[100];
     int m;
+    int g;
     scanf("%s",&s);
+    for(int i=0;i<str[i];i++){
+        if (str[i] != ' ')
+            str[g++] = str[i];
+    str[g] = '\0';
+    }
     int n = strlen(s);
     printf("%d",n);
     for(int i=0;i<n;i++){

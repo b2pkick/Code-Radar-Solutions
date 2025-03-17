@@ -6,12 +6,7 @@ int main(){
     int arr[100];
     int m;
     int g;
-    scanf("%s",&s);
-    for(int i=0;s[i];i++){
-        if (s[i] != ' ')
-            s[g++] = s[i];
-    s[g] = '\0';
-    }
+    scanf("%[^\n]", str);
     int n = strlen(s);
     printf("%s",s);
     printf("%d",n);

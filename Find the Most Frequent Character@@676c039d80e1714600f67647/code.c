@@ -7,7 +7,6 @@ int main(){
     int m;
     scanf("%s",&s);
     int n = strlen(s);
-    printf("%d",n);
     for(int i=0;i<n;i++){
         count = 0;
         m = s[i];
@@ -19,9 +18,6 @@ int main(){
         arr[i] = count;
     }
     int u=0;
-    for(int i= 0;i<n;i++){
-        printf("%d \t",arr[i]);
-    }
     for(int i=0;i<n;i++){
         if(arr[i]>u){
             u = arr[i];

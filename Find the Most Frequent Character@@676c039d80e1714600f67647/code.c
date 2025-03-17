@@ -35,7 +35,7 @@ int main(){
             }
         }
         if(count == u){
-            int ar1[i] = s[i];
+            ar1[i] = s[i];
             v++;
             break;
         }

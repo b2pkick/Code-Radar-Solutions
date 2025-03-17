@@ -3,9 +3,10 @@
 
 
 int main() {
-    float float1,float2;
-    scanf("%f",&float1);
-    scanf("%f",&float2);
-    printf("Product: %.2f",float1*float2);
+    int a;
+    scanf("%d",&a);
+
+    printf("Hexadecimal: %X\n",a);
+    printf("Octal: %o",a);
     return 0;
 }

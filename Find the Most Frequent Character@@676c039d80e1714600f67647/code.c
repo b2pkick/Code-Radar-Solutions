@@ -35,13 +35,8 @@ int main(){
             }
         }
         if(count == u){
-            ar1[i] = s[i];
-            v++;
+            printf("%d",s[j]);
             break;
         }
-    }
-    printf("%d\n",v);
-    for(int i=0;i<v;i++){
-        printf("%d",ar1[i]);
     }
 }

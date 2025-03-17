@@ -40,6 +40,7 @@ int main(){
             break;
         }
     }
+    printf("%d",v)
     for(int i=0;i<v;i++){
         printf("%d",ar1[i]);
     }

@@ -40,7 +40,7 @@ int main(){
             break;
         }
     }
-    printf("%d",v);
+    printf("%d\n",v);
     for(int i=0;i<v;i++){
         printf("%d",ar1[i]);
     }

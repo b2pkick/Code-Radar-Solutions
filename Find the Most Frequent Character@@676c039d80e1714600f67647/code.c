@@ -35,7 +35,7 @@ int main(){
             }
         }
         if(count == u){
-            printf("%d",s[j]);
+            printf("%d",s[i]);
             break;
         }
     }

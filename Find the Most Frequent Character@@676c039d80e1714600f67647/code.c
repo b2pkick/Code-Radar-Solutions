@@ -36,7 +36,7 @@ int main(){
             }
         }
         if(count == u){
-            if(int(m)<k){
+            if((int)m<k){
                 k = m;
             }
         }

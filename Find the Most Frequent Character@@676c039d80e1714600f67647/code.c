@@ -19,11 +19,10 @@ int main(){
         arr[i] = count;
     }
     int u=0;
-    int q = sizeof(arr)/sizeof(arr[0]);
-    for(int i= 0;i<q;i++){
+    for(int i= 0;i<n;i++){
         printf("%d \t",arr[i]);
     }
-    for(int i=0;i<q;i++){
+    for(int i=0;i<n;i++){
         if(arr[i]>u){
             u = arr[i];
         }

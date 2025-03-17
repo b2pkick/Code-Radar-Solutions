@@ -4,8 +4,10 @@ int main(){
     char s[100];
     int count;
     int arr[100];
+    int ar1[100];
     int m;
     int g;
+    int v=0;
     scanf("%[^\n]", s);
     int n = strlen(s);
     for(int i=0;i<n;i++){
@@ -33,8 +35,12 @@ int main(){
             }
         }
         if(count == u){
-            printf("%c",s[i]);
+            int ar1[i] = s[i];
+            v++;
             break;
         }
+    }
+    for(int i=0;i<v;i++){
+        printf("%d",ar1[i]);
     }
 }

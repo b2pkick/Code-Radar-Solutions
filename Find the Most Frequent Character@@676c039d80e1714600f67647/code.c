@@ -9,7 +9,7 @@ int main(){
     scanf("%s",&s);
     for(int i=0;s[i];i++){
         if (s[i] != ' ')
-            s[g++] = str[i];
+            s[g++] = s[i];
     s[g] = '\0';
     }
     int n = strlen(s);

@@ -6,6 +6,7 @@ int main(){
     int arr[100];
     int m;
     scanf("%s",&s);
+    n = strlen(s);
     printf("%d",n);
     for(int i=0;i<n;i++){
         count = 0;

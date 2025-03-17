@@ -6,7 +6,7 @@ int main(){
     int arr[100];
     int m;
     int g;
-    scanf("%[^\n]", str);
+    scanf("%[^\n]", s);
     int n = strlen(s);
     printf("%s",s);
     printf("%d",n);

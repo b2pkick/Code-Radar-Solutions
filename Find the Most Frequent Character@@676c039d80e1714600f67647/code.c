@@ -25,7 +25,7 @@ int main(){
     }
     for(int i=0;i<n;i++){
         count = 0;
-        m = s[i];
+        int m = s[i];
         for(int j=0;j<n;j++){
             if(s[j]==m){
                 count++;

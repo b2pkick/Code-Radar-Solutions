@@ -7,7 +7,7 @@ int main(){
     int m;
     int g;
     scanf("%s",&s);
-    for(int i=0;i<str[i];i++){
+    for(int i=0;str[i];i++){
         if (str[i] != ' ')
             str[g++] = str[i];
     str[g] = '\0';

@@ -8,9 +8,9 @@ int main(){
     int g;
     scanf("%s",&s);
     for(int i=0;s[i];i++){
-        if (str[i] != ' ')
-            str[g++] = str[i];
-    str[g] = '\0';
+        if (s[i] != ' ')
+            s[g++] = str[i];
+    s[g] = '\0';
     }
     int n = strlen(s);
     printf("%d",n);

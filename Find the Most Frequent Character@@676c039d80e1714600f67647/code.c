@@ -4,6 +4,7 @@ int main(){
     char s[100];
     int count;
     int arr[100];
+    int m;
     scanf("%s",&s);
     int n = strlen(s);
     for(int i=0;i<n;i++){
@@ -25,7 +26,7 @@ int main(){
     }
     for(int i=0;i<n;i++){
         count = 0;
-        int m = s[i];
+        m = s[i];
         for(int j=0;j<n;j++){
             if(s[j]==m){
                 count++;

@@ -7,6 +7,7 @@ int main(){
     int m;
     scanf("%s",&s);
     int n = strlen(s);
+    printf("%d",n);
     for(int i=0;i<n;i++){
         count = 0;
         m = s[i];

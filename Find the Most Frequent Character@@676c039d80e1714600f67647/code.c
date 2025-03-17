@@ -26,6 +26,7 @@ int main(){
             u = arr[i];
         }
     }
+    int k=1000;
     for(int i=0;i<n;i++){
         count = 0;
         m = s[i];
@@ -35,8 +36,10 @@ int main(){
             }
         }
         if(count == u){
-            printf("%c",m);
-            break;
+            if(int(m)<k){
+                k = m;
+            }
         }
     }
+    printf("%c",k);
 }

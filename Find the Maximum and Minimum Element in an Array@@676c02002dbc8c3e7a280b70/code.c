@@ -22,10 +22,10 @@ int main(){
             }
         }
         if(count-count1==n-count1){
-            printf("%d ",n);
+            printf("%d ",arr[i]);
         }
         if(count-count1==n-count1){
-            printf("%d",n);
+            printf("%d",arr[i]);
         }
     }
 }

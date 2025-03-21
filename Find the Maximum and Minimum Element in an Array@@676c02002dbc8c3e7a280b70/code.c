@@ -8,6 +8,8 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
+    int ok;
+    int nok;
     for(int i=0;i<n;i++){
         count =0;
         count1=0;
@@ -22,10 +24,11 @@ int main(){
             }
         }
         if(count == count1){
-            printf("%d ",arr[i]);
+            ok = arr[i];
         }
         if(count-count1==n-count1){
-            printf("%d",arr[i]);
+            nok= arr[i];
         }
     }
+    printf("%d %d",ok,nok)
 }

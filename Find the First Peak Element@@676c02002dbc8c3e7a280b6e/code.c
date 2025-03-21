@@ -15,7 +15,7 @@ int main() {
                 count = arr[i];
                 break;
             }
-        }if else(arr[i-1]){
+        }else if(arr[i-1]){
             if(arr[i]>arr[i-1]){
                 count = arr[i];
                 break;

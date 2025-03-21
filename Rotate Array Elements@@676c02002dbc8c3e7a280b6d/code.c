@@ -13,7 +13,7 @@ int main(){
         arr1[i] = arr[i];
     }
     scanf("%d",&k);
-    for(int i=0;i<n;i++){
+    for(int i=1;i<n;i++){
         if(i+k>n-1){
             arr[i] = arr1[i-k-1];
         }else{

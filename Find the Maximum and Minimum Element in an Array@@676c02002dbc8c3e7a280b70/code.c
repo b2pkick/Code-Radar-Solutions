@@ -21,7 +21,7 @@ int main(){
                 count++;
             }
         }
-        if(count-count1==n-count1){
+        if(count == count1){
             printf("%d ",arr[i]);
         }
         if(count-count1==n-count1){

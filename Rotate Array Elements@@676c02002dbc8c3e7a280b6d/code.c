@@ -8,7 +8,7 @@ int main(){
     }
     int k;
     int temp;
-    scnaf("%d",&k);
+    scanf("%d",&k);
     for(int i=0;i<k;i++){
         for(int j=0;j<n;j++){
             temp = arr[i];

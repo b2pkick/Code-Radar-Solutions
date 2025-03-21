@@ -30,5 +30,5 @@ int main(){
             nok= arr[i];
         }
     }
-    printf("%d %d",ok,nok)
+    printf("%d %d",ok,nok);
 }

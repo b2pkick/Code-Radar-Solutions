@@ -4,20 +4,20 @@ int main(){
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++){
-        scanf("%d",arr[i]);
+        scanf("%d",&arr[i]);
     }
     int k;
     int temp;
+    int arr1[n];
+    for(int i=0;i<n;i++){
+        arr1[i] = arr[i];
+    }
     scanf("%d",&k);
-    for(int i=0;i<k;i++){
-        for(int j=0;j<n;j++){
-            temp = arr[i];
-            if(i+k>n){
-                arr[n-k-1]=arr[i];
-            }else{
-            arr[i] = arr[i+k];
-            arr[i+k] = arr[i];
-            }
+    for(int i=0;i<n;i++){
+        if(i+k>n-1){
+            arr[i] = arr1[i-k-1];
+        }else{
+            arr[i] = arr1[i+k];
         }
     }
     for(int i= 0 ;i<n;i++){

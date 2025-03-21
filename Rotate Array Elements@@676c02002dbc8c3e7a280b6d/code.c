@@ -15,9 +15,9 @@ int main(){
     scanf("%d",&k);
     for(int i=0;i<n;i++){
         if(i+k>n-1){
-            arr[i] = arr1[i-k-1];
+            arr[i] = arr1[i-k-2];
         }else{
-            arr[i] = arr1[i+k];
+            arr[i] = arr1[i+k-1];
         }
     }
     for(int i= 0 ;i<n;i++){
